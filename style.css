@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(116, 108, 238);
+    background: url(images/Christmas-Background.jpg) ;
+}
+
+#main h5{
+    color: #ffffff;
+    font-size: large;
+}
+
+#main a{
+    text-decoration: none;
+    color: #9b0d0d;
+}
+
+
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;  
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+#main h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#main h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.countdown {
+    display: flex;
+    
+    
+}
+
+.countdown div {
+    border-radius: 15px;
+    width: 190px;
+    height: 170px;
+    background-color: #fff;
+    margin: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.countdown div span {
+    display: block;
+    font-size: 3rem;
+    font-weight: 200;}
+
+.countdown div p {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #de4e27;
+    font-weight: 600;
+}
+
+.quote{
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 800px) {
+    .countdown {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .countdown div {
+        width: 190px;
+    }
+}
+
+@media (max-width: 414px) {
+    #main h1 {
+        font-size: 2rem;
+    }
+    
+    #main h2 {
+        font-size: 1.5rem;
+    }
+    
+    .countdown {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .countdown div {
+        width: 150px;
+        height: 130px;
+    }
+
+    .countdown div span {
+        font-size: 3rem;
+        font-weight: 200;}
+    
+    .countdown div p {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 390px) {
+    .countdown {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .countdown div {
+        width: 150px;
+    }
+}
+
+@media (max-width: 375px) {
+    #main h1 {
+        font-size: 1.7rem;
+    }
+    
+    #main h2 {
+        font-size: 1rem;
+    }
+    
+    .countdown {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .countdown div {
+        width: 120px;
+        height: 100px;
+    }
+
+    .countdown div span {
+        font-size: 2rem;
+        font-weight: 200;}
+    
+    .countdown div p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .quote{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
